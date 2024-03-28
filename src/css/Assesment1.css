@@ -1,0 +1,130 @@
+.banner0 {
+  position: relative;
+  width: 100%;
+  height: auto; /* Change to auto for dynamic height */
+}
+.img01{
+  width: 100%;
+}
+.hero-text0 p {
+  position: absolute;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.8px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+}
+
+.text0 {
+  position: relative;
+  color: #4e4949;
+  background-color: #EBFFF5;
+  text-align: center;
+  padding: 20px;
+  width: 950px;
+  margin: 40px 250px;
+  border-radius: 24px; /* Add padding */
+}
+
+.text0 table {
+  width: 100%; /* Make table width 100% */
+  border-collapse: collapse; /* Collapse border spacing */
+  border: 2px solid #7CAE9E; /* Add border to table */
+  border-radius: 24px;
+}
+.questions_assessment_anxiety{
+  text-align: left;
+}
+.text0 th,
+.text0 td {
+  border: 1px solid #7CAE9E; /* Add border to table cells */
+  padding: 10px; /* Add padding */
+}
+
+.abcd1234 {
+  color: #4E4949;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  margin: 20px 0; /* Adjust margin */
+}
+
+p.abcd123 {
+  color: #4E4949;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Remove absolute positioning for images */
+.img133,
+.img122,
+.img111,
+.img144,
+.img155,
+.brain0 {
+  display: none;
+}
+
+.progress0 {
+  position: absolute;
+  width: 50%;
+  margin: 5%;
+  left: 25%;
+  top: 10%;
+  transform: translate(-10%, -10%);
+}
+.custom-progress-bar {
+  height: 12px;
+  background-color: #fff;
+  border: 1px solid #7CAE9E; /* Adjust the height as needed */
+}
+
+
+/* Style for buttons */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove button border */
+  background-color: #7CAE9E; /* Change button background color */
+  color: #fff; /* Change button text color */
+}
+
+button:hover {
+  background-color: #5d8b7f; /* Change button background color on hover */
+}
+
+
+/* Pop-up styling */
+.popup_assesment1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.popup_assesment1 p {
+  margin-bottom: 15px;
+  
+}
+
+.popup_assesment1 button {
+  margin-right: 10px;
+  background-color: #7CAE9E;
+}
+

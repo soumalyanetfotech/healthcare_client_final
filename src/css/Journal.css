@@ -1,0 +1,266 @@
+.journal-container {
+    color: var(--Dark-grey, #4E4949);
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.journal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.journal-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.48px;
+    text-align: center;
+    background-color: #F8E8E9;
+    padding: 10px 20px;
+    border-radius: 12px;
+    -webkit-text-stroke-width: 0.2px;
+}
+
+.journal-discovery-text {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.4px;
+    padding-bottom: 25px;
+}
+
+.journal-actions p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    padding-left: 15px;
+    text-align: left;
+    /* text-overflow: ellipsis; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+}
+
+.journal-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #7CAE9E;
+}
+
+.button-group-label {
+    display: flex;
+    margin: 5px 5px;
+    padding: 4px 16px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0px; */
+    border-radius: 6px;
+    /* color: #7CAE9E; */
+    border: 1px solid var(--Darkest-green, #01100b);
+    background: var(--Light-green, #EBFFF5);
+}
+
+.tag-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.button-label {
+    display: flex;
+    margin: 5px 5px;
+    padding: 4px 16px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0px; */
+    border-radius: 6px;
+    border: 1px solid var(--Darkest-green, #01100b);
+    background: var(--Light-green, #EBFFF5);
+}
+
+.custom-button {
+    display: flex;
+    margin: 5px 5px;
+    padding: 4px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Darkest-green, #7CAE9E);
+    background: var(--Light-green, #EBFFF5);
+    cursor: pointer;
+    color: #7CAE9E;
+}
+.custom-button:hover{
+    color: #fff;
+    background-color: #7CAE9E;
+}
+
+.custom-button.active {
+    background-color: #7CAE9E;
+    /* background: var(--Selected-green, #8AFFB3); */
+    /* You can adjust the selected background color as needed */
+}
+
+/* Add this to your CSS file */
+.current-date {
+    margin-top: 20px;
+    /* Adjust the value as needed */
+}
+
+.tag-button-group {
+    width: 80;
+}
+
+.journal-button-group {
+    width: 80%;
+}
+
+.thought-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 150px;
+    resize: none;
+    line-height: 120%;
+    width: 100%;
+    resize: none;
+}
+
+.text-prompt h2 {
+    font-size: medium;
+}
+
+.thought-input::placeholder {
+    color: #7CAE9E;
+}
+
+.Save-Button button {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-bottom: 20px;
+    width: 60%;
+    display: flex;
+    /* border-left: 100px; */
+    margin: 20px 30px;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Darkest-green, #01100b);
+    /* background: var(--Darkest-green, #7CAE9E); */
+    /* color: white; */
+}
+.Save-Button button:hover {
+    background-color: #EBFFF5;
+    color: #7CAE9E;
+    border: 1px solid #7CAE9E;
+}
+
+
+.table21 {
+    justify-content: space-between;
+    /* row-gap: 500px; */
+}
+
+.table22 {
+    position: relative;
+    margin-left: 100%;
+    /* text-align: right; */
+    /* justify-content: left; */
+}
+
+/* .table22 table{
+    padding-right: 60%;
+} */
+/* .date-and-buttons{
+    display: inline-block;
+}
+.current-date p{
+    padding-right: 400px;
+} */
+.container {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: end;
+}
+
+.emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* border: 1px solid black; */
+    width: 40%;
+
+    flex-shrink: wrap;
+}
+
+.emoji h2 {
+    display: flex;
+    font-size: medium;
+    margin-left: 40px;
+    flex-wrap: wrap;
+
+
+}
+
+.emoji-fb {
+    display: flex;
+    padding-top: 10px;
+    justify-content: end;
+
+}
+
+button {
+
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.emoji-fb img {
+
+    display: flex;
+    justify-content: flex-end;
+    height: 3rem;
+}
+
+.text-formating {
+    display: flex;
+    justify-content: center;
+}
+
+.text-formating img {
+    height: 1rem;
+}
+
+.cancel-button {
+    position: absolute;
+    left: 50%;
+}

@@ -1,0 +1,81 @@
+*{
+    -webkit-text-stroke-width: thin;
+}
+.profile-screen {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 20px 70px 0 70px;
+}
+
+.docprofile {
+    width: 100%;
+    
+}
+
+.sidebar {
+    width: 210.016px;
+    height: 562.8px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid rgba(124, 174, 158, 0.75);
+    background: rgba(124, 174, 158, 0.75);
+    padding-left: 28.65px;
+    padding-top: 110px;
+}
+
+.docprofile-table {
+    margin-left: 45px;
+    background-color: #CFECE0;
+    width: 1035px;
+    height: 1230.533px;
+    flex-shrink: 0;
+    border-radius: 24px;
+}
+
+.nav-item-docprofile {
+    padding-top: 10px;
+    width: 181.063px;
+    height: 47.674px;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 1px solid rgba(124, 174, 158, 0.75);
+    color: #FFF;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+    background-color: #FFF;
+    height: auto;
+    
+}
+/* .account-details-docprofile{
+    width: 440px;
+} */
+.profile-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.account-details {
+    margin-right: 20px;
+}
+
+.account-details input {
+    display: block;
+}
+.docprofile-label{
+    display: flex;
+    justify-content: left;
+    padding: 8px 0;
+}
+.docprofile-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border: 2px solid #7CAE9E;
+    border-radius: 12px;
+    width: 400px;
+}

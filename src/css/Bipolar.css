@@ -1,0 +1,560 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+
+* {
+    color: var(--Dark-grey, #4E4949);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .her_tabbed_Bipolar {
+    width: 100%;
+    max-width: 100%;
+    min-width: 768px;
+  }
+  
+  .assessmentpink_tabbed_Bipolar {
+    position: relative;
+    width: 100%;
+  }
+  
+  .home_tabbed_Bipolar {
+    width: 100%;
+  }
+  
+  .content_left_tabbed_Bipolar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .her1-tabbed_Bipolar {
+    max-height: 160px;
+    max-width: 680px;
+    -webkit-text-stroke-width: thin;
+  }
+  
+  .her1_tabbed_Bipolar {
+    position: absolute;
+    top: 80px;
+    text-align: left;
+  }
+  
+  .tabbed-p1_Bipolar {
+    display: flex;
+    align-self: stretch;
+    max-width: 680px;
+    max-height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--Dark-grey, #4E4949);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    margin-left: 80px;
+    margin-top: 75px;
+  }
+  
+  .tabbed-p2_Bipolar {
+    display: flex;
+    align-self: stretch;
+    width: 680px;
+    height: 84px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--Dark-grey, #4E4949);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    margin-left: 80px;
+    margin-top: 25px;
+  }
+  .assessment_hero_button_Bipolar {
+    position: absolute;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 200px;
+    height: 50px;
+    background-color: #7CAE9E;
+    color: #fff;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 80%;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .assessment_hero_button_Bipolar:hover {
+    color: #4E4949;
+    background-color: #EBFFF5;
+    border: 1px solid #7CAE9E;
+  }
+  
+  .green_img_tabbed_Bipolar {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 750px;
+  }
+  .tabbed_p3_Bipolar {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .tabbed_p4_Bipolar {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .tab1_Bipolar {
+    top: 150%;
+    transform: translate(0, -10%);
+  }
+  
+  .tab1_Bipolar button {
+    position: relative;
+    width: 220px;
+    height: 54px;
+    margin: 0 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--Pink-Background, #7CAE9E);
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.12);
+    top: 250%;
+  }
+  
+  .tabcontent1_Bipolar {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 550px;
+    background-color: #fff;
+    position: relative;
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: #4e4949;
+    border-radius: 10%;
+    width: 80%;
+    margin-left: 10%;
+    animation: fadeEffect 0.3s;
+    margin-bottom: 100px;
+    top: 200%;
+  }
+  
+  .crying121_Bipolar {
+    position: absolute;
+    margin-top: 90px;
+    right: 80px;
+    width: 176px;
+    height: 290px;
+    flex-shrink: 0;
+    padding-bottom: 46.613px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .tabutt_Bipolar {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .tabutt_Bipolar:hover {
+    color: #000;
+  }
+  .ab_Bipolar {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    background-color: #7CAE9E;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .abc_Bipolar {
+    color: #FFF;
+  }
+  .abc_Bipolar {
+    text-decoration: none;
+    color: #7CAE9E;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .her1_Bipolar {
+      position: relative;
+    }
+  
+    .herimg11_Bipolar {
+      width: 100%;
+      height: 350px;
+    }
+  
+    .herimg21_Bipolar {
+      width: 50%;
+      height: 330px;
+      top: 6%;
+    }
+  
+    .btext-11_Bipolar {
+      margin-left: 5%;
+      margin-top: -18%;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+  
+    .btext-21_Bipolar {
+      margin-left: 5%;
+      margin-top: -22%;
+      font-size: 25px;
+    }
+  
+    .btext-31_Bipolar {
+      margin-left: 5%;
+      margin-top: -5%;
+      font-size: 11px;
+      width: 45%;
+    }
+  
+    .cta11_Bipolar {
+      padding: 5px 10px;
+      margin: 2px 1px;
+      bottom: 10vh;
+      left: 5%;
+    }
+  }
+  
+  .tabcontent1_Bipolar table {
+    width: 80%;
+  }
+  .tabcontent1_Bipolar td {
+    vertical-align: center;
+  }
+  .tabcontent1_Bipolar p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  .tab1_Bipolar button.active {
+    background-color: #7cae9e;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .tab1_Bipolar {
+      height: 15vh;
+      display: flex;
+      margin: 0 12%;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .tab1_Bipolar img {
+      width: 20%;
+    }
+  
+    .tabcontent1_Bipolar {
+      width: 85vw;
+      bottom: 60vh;
+      right: 9vw;
+    }
+  
+    .tabcontent1_Bipolar img {
+      height: 30vh;
+      width: 40vw;
+    }
+  }
+  
+  .tabContent1head_Bipolar h3 {
+    color: var(--Dark-grey, #4e4949);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    position: absolute;
+    top: 50px;
+    margin-left: 70px;
+  }
+  
+  .tabContent1text_p1_Bipolar {
+    position: absolute;
+    color: var(--Dark-grey, #4e4949);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 802px;
+    height: 84px;
+    text-align: left;
+  }
+  
+  .tabContent1text_p2_Bipolar {
+    position: absolute;
+    color: var(--Dark-grey, #4e4949);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+    margin-left: 45px;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.48px;
+  align-self: stretch;
+  }
+  
+  .tabContent1text_Bipolar ul {
+    color: var(--Dark-grey, #4e4949);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    position: absolute;
+    text-align: left;
+    left: 4%;
+    top: 55%;
+  }
+  .tabContent1text_Bipolar li{
+    margin-top: 10px;
+  }
+  .crying122_Bipolar {
+    position: relative;
+    margin-top: 25%;
+    left: 33%;
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+  }
+  .tabcontent2_Bipolar {
+    background-color: #fff;
+    position: relative;
+    bottom: 60vh;
+    display: block;
+    padding: 45px 20px;
+    border: 1px solid #ccc;
+    box-shadow: #4e4949;
+    border-radius: 10%;
+    width: 80%;
+    margin-left: 10%;
+    animation: fadeEffect 0.3s;
+  }
+  .tabcontent2_Bipolar h3 {
+    color: var(--Dark-grey, #4e4949);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+  }
+  .tabcontent2_Bipolar table {
+    width: 80%;
+  }
+  .tabcontent2_Bipolar td {
+    vertical-align: center;
+  }
+  .tabcontent2_Bipolar p {
+    color: var(--Dark-grey, #4e4949);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+  }
+  .tabcontent2_Bipolar button {
+    position: relative;
+    background-color: #7cae9e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    top: 8vh;
+    /* left: 7.5vw; */
+    text-align: center;
+    margin-left: 4%;
+  }
+  .cardtxt10_Bipolar {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    top: -44vh;
+  }
+  .cardtxt20_Bipolar {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    top: -44vh;
+  }
+  @media only screen and (max-width: 768px) {
+    .wave1_Bipolar {
+      margin-top: -5vh;
+    }
+  
+    .img91_Bipolar {
+      width: 100%;
+    }
+  
+    .tab2_Bipolar {
+      height: 15vh;
+      display: flex;
+      margin: 0 12%;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .tab2_Bipolar img {
+      width: 20%;
+    }
+  
+    .tabcontent2_Bipolar {
+      width: 85vw;
+      bottom: 60vh;
+      right: 9vw;
+    }
+  
+    .tabcontent2_Bipolar img {
+      height: 30vh;
+      width: 40vw;
+    }
+  
+    .tabcontent2_Bipolar button {
+      padding: 5px 10px;
+      margin: 2px 1px;
+      bottom: 40vh;
+    }
+  }
+  .img91_tabbed_Bipolar {
+    position: relative;
+    width: 100%;
+    height: 360px;
+  }
+  
+  .wave1_Bipolar p {
+    font-family: "Poppins", sans-serif;
+    color: #4e4949;
+    position: relative;
+  }
+  
+  .cardtxt10_Bipolar {
+    color: var(--Dark-grey, #4E4949);
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+  }
+  
+  .cardtxt20_Bipolar {
+    display: flex;
+    width: 720px;
+    height: 56px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: var(--Dark-grey, #4E4949);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+  }
+  
+  .tab2_Bipolar {
+    text-align: center;
+    position: relative;
+    bottom: 43vh;
+    margin: 0 12%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 99;
+    cursor: pointer;
+  }
+  
+  .tab2_Bipolar img {
+    width: 140px;
+    height: 150px;
+    flex-shrink: 0;
+    background-color: #EEE;
+    box-shadow: 2px 2px 0px 0px #A5898B;
+    border-radius: 50%;
+  }
+  
+  .tab2_Bipolar img:active {
+    background-color: #7CAE9E;
+  }
+  
+  .tab2_Bipolar p {
+    color: var(--Dark-grey, #4E4949);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+  }
+  
+  .tabcontent2_Bipolar {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: #4e4949;
+    border-radius: 10%;
+    width: 80%;
+    margin-left: 10%;
+    animation: fadeEffect 0.3s;
+  }

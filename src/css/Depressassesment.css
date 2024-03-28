@@ -1,0 +1,244 @@
+/* hero part */
+.banner0de {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.img01de {
+    position: relative;
+    width: 100%;
+    height: 282px;
+}
+
+.hero-text0de {
+    position: relative;
+    justify-content: center;
+}
+
+.hero-text0de h2 {
+    position: absolute;
+    color: var(--Dark-grey, #4e4949);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 56px */
+    letter-spacing: 0.8px;
+    width: 480px;
+
+    bottom: 32vh;
+    left: 38%;
+}
+
+
+.button_space1de {
+    margin-left: 10%;
+    justify-content: space-between;
+    margin-top: 10%;
+    display: inline-flex;
+    width: 200px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    border-radius: 12px;
+    border: 1px solid var(--Darkest-green, #7CAE9E);
+    background: var(--Light-green, #EBFFF5);
+}
+
+.button_space2de {
+    margin-right: 10%;
+    display: inline-flex;
+    width: 200px;
+    padding: 8px 16px;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--Darkest-green, #7CAE9E);
+    margin-bottom: 10%;
+
+}
+
+.text0de h2 {
+    color: #4e4949;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.text0de h6 {
+    color: var(--Dark-grey, #4e4949);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text0de {
+    position: relative;
+    color: #4e4949;
+    background-color: EBFFF5;
+    text-align: center;
+    margin-top: 6vh;
+    text-align: center;
+}
+
+.abcd1234de {
+    color: #4E4949;
+    font-size: 24px;
+    font-weight: 500;
+    text-style: bold;
+    bottom: 280px;
+    text-align: left;
+    margin-left: 8vw;
+    padding: 20px 20px;
+}
+
+.abcd123de {
+    color: #4E4949;
+    justify-content: space-between;
+    margin-left: 8vw;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.img133de {
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    top: 1%;
+    left: 90%;
+}
+
+.img122de {
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    top: 15%;
+    left: 80%;
+}
+
+.img111 {
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    left: 90%;
+    top: 30%;
+}
+
+.img144 {
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    flex-shrink: 0;
+    left: 90%;
+    top: 70%;
+}
+
+.img155 {
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    flex-shrink: 0;
+    left: 80%;
+    top: 50%;
+}
+
+.brain0de {
+    position: absolute;
+    right: 60%;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    bottom: 25vh;
+    z-index: 2;
+}
+
+.progress0de {
+    position: absolute;
+    width: 400px;
+    height: 12px;
+    bottom: 28vh;
+    right: 30%;
+    z-index: 1;
+
+}
+
+.assbutt22de {
+    text-decoration: none;
+    color: #fff;
+}
+
+.assbutt22de:hover {
+    color: #000;
+}
+
+.assbutt21de:hover {
+    color: #000;
+}
+
+.assbutt21de {
+    text-decoration: none;
+    color: #4e4949;
+}
+
+/* Modal styles */
+.modalde {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contentde {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    text-align: center;
+}
+
+.closede {
+    color: #000;
+    float: right;
+    font-size: 108px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closede:hover {
+    color: black;
+}
+
+/* Style for buttons */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}

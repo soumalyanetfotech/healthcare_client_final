@@ -1,0 +1,419 @@
+/* General styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke-width: thin;
+}
+
+.dark-mode * {
+    color: rgb(235, 199, 232);
+    background-color: #2D3250;
+
+}
+
+.dark-mode body {
+
+    color: rgb(235, 199, 232);
+    background-color: var(--background-color, #2D3250);
+}
+
+body {
+    background-color: var(--background-color, #ffffff);
+    color: var(--text-color, #4E4949);
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Whole page container */
+.whole {
+    display: flex;
+    /* Use flexbox to arrange the sidebar and content */
+    height: 100%;
+    /* Make the container take up the full viewport height */
+    width: 100%;
+    margin: 0;
+    /* Remove margin */
+}
+
+/* Sidebar styles */
+.side_admin {
+    width: 230px;
+    background: rgba(194, 174, 158, 0.75);
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    /* Add border to create a defined line */
+    margin: 0;
+    /* Remove margin */
+
+}
+
+.dark-mode .side_admin {
+    background-color: #2D3250;
+    color: #2D3250;
+}
+
+.side_admin div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.side_admin button {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #4E4949;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.dark-mode .side_admin button {
+    color: #2D3250;
+    background-color: rgb(235, 199, 232);
+}
+
+.side_admin button:hover {
+    background-color: #ccc;
+}
+
+.container_admin {
+    display: inline-flex;
+    width: 100%;
+}
+
+/* Content styles */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    /* Add border to create a defined line */
+    margin: 0;
+    /* Remove margin */
+}
+
+.content h3 {
+    margin-bottom: 10px;
+}
+
+.content hr {
+    margin-bottom: 20px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content th,
+.content td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Button styles */
+/* .bu1 {
+    background-color: #7CAE9E;
+    border-color: #7CAE9E;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bu1:hover,
+.bu1:active {
+    background-color: #EBFFF5;
+    border-color: #7CAE9E;
+    color: #4E4949;
+} */
+
+/* Dashboard container styles */
+/* .dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+} */
+
+/* .dashboard-container-sohini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* Dashboard block styles */
+.dashboard-block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* flex-basis: calc(33.33% - 20px); */
+    border: 2px solid #ccc;
+    flex: 1;
+}
+
+.dashboard-block_p {
+    width: fit-content;
+    padding: 4px 0 4px 0;
+    border-radius: 12px;
+    border: 1px solid #999;
+}
+
+.dark-mode .dashboard-block {
+    background-color: #2D3250;
+}
+
+.dashboard-block p {
+    margin-bottom: 10px;
+}
+
+.dashboard-block h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.dashboard-block_appoint {
+    background-color: #fff;
+    /* padding: 2px; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.33% - 20px);
+    border: 2px solid #ccc;
+}
+
+.dashboard-block_appoint h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.dashboard-block_appoint p {
+    margin-bottom: 5px;
+}
+
+
+.icon-container {
+    /* display: flex; */
+    left: 10px; /* Adjust the margin as needed */
+    float: right;
+  }
+
+
+/* Chart container styles */
+.chart-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#patientCountChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+.appointment-details{
+    opacity: 1;
+}
+
+
+.upcoming-appointments ul {
+    list-style: none;
+    padding: 0;
+    width: auto;
+}
+
+.upcoming-appointments li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 24px;
+}
+
+.upcoming-appointments li p {
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+/* Calendar styles */
+.small-calendar {
+    width: 200px;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: red;
+    /* Customize weekend day color */
+}
+
+.react-calendar__tile--active {
+    background-color: #7CAE9E;
+    /* Customize active day background color */
+    color: white;
+    /* Customize active day text color */
+}
+
+.react-calendar__tile--now {
+    background-color: #F9D8AF;
+    /* Customize current day background color */
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+    background-color: #5C8B7A;
+    /* Customize active day hover color */
+}
+
+.patient-list-container {
+    max-height: 200px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.patient-list {
+    list-style: none;
+    padding: 0;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.patient-list li {
+    margin-bottom: 10px;
+    /* Add spacing between list items */
+    padding: 10px;
+    background-color: #f0f0f0;
+    /* Light gray background color */
+    border-radius: 24px;
+    width: 100% !important;
+}
+
+.patient-list li:hover {
+    background-color: #e0e0e0;
+    /* Darker gray background color on hover */
+}
+
+/* Custom scrollbar styles */
+.patient-list-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.patient-list-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.patient-list-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.patient-list-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+.dashboard-container_p {
+    margin-top: 20px;
+    width: auto;
+
+}
+
+.patient-list-container {
+    max-height: 200px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+    padding-right: 8px;
+    /* Add padding for scrollbar width */
+}
+
+.patient-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.patient-list li {
+    margin-bottom: 5px;
+    /* Add spacing between list items */
+}
+
+.patient-name {
+    padding: 10px;
+    background-color: #f0f0f0;
+    /* Light gray background color */
+    border-radius: 5px;
+}
+
+.patient-name:hover {
+    background-color: #e0e0e0;
+    /* Darker gray background color on hover */
+}
+
+/* Custom scrollbar styles */
+.patient-list-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.patient-list-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.patient-list-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.patient-list-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.patient-list li {
+    border-bottom: 1px solid #ccc;
+    /* Add line after every name */
+    padding: 10px;
+}
+
+.view-all-button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.view-all-button button {
+    background-color: #7CAE9E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-all-button button:hover {
+    background-color: #5C8B7A;
+}
+
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-container-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.dashboard_item {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

@@ -1,0 +1,154 @@
+* {
+    color: var(--Dark-grey, #4E4949);
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke-width: thin;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    border-radius: 24px;
+    background: rgba(124, 174, 158, 0.75);
+    padding: 20px;
+}
+
+.sidebar h4 {
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #ccc;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content h3 {
+    margin-bottom: 10px;
+}
+
+.content_ex hr {
+    margin-bottom: 20px;
+}
+
+.content_ex table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content_ex th,
+.content_ex td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.bu1 {
+    background-color: #7CAE9E;
+    border-color: #7CAE9E;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bu1:hover,
+.bu1:active {
+    background-color: #EBFFF5;
+    border-color: #7CAE9E;
+    color: #4E4949;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .dashboard-block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.33% - 20px);
+    border: 2px solid #ccc;
+
+  }
+  
+  .dashboard-block h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .dashboard-block p {
+    margin-bottom: 10px;
+  }
+  
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #4E4949;
+    cursor: pointer;
+  }
+  
+  .pagination .active a {
+    background-color: #7CAE9E;
+    color: white;
+    border-color: #7CAE9E;
+  }
+  
+  .pagination a:hover {
+    background-color: #EBFFF5;
+    color: #4E4949;
+    border-color: #7CAE9E;
+  }
+  
+  .pagination .disabled a {
+    pointer-events: none;
+    background-color: #ccc;
+    color: #4E4949;
+    border-color: #ccc;
+  }
+
+  .content_ex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content_ex table {
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+  
